@@ -1,3 +1,4 @@
+$dark-white:#bdc2ce;
 $light-blue:#72E5FE;
 $navy-blue:#135585;
 $dark-blue:#191348;
@@ -11,6 +12,11 @@ $deep-black:#202020;
     }
     .hero .para-2{
         width: 100% !important;
+    }
+    .scroll-down {
+        & .sd-row{
+            width: 1000px !important;
+        }
     }
 }
 @media(max-width:993px){
@@ -50,6 +56,11 @@ $deep-black:#202020;
             width: 650px !important;
         }
     }
+    .scroll-down {
+        & .sd-row{
+            width: 700px !important;
+        }
+    }
 }
 @media(max-width:800px){
     .hero .img{
@@ -83,6 +94,18 @@ $deep-black:#202020;
     .hero .para-4-box{
         width: 500px !important;
     }
+    .scroll-down {
+        & .sd-row{
+            width: 500px !important;
+        }
+    }
+}
+@media(max-width:500px){
+    .scroll-down {
+        & .sd-row{
+            width: 350px !important;
+        }
+    }
 }
 @media(max-width:420px){
     .hero .para-1 button{
@@ -97,5 +120,10 @@ $deep-black:#202020;
     }
     .hero .para-4 img{
         max-width: 315px !important;
+    }
+    .scroll-down {
+        & .sd-row{
+            width: 300px !important;
+        }
     }
 }

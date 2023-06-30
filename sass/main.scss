@@ -31,6 +31,9 @@ p{
 .f-48{
     font-size: 48px;
 }
+.text-dwhite{
+    color: $dark-white;
+}
 .text-lblue{
     color: $light-blue;
 }
@@ -45,6 +48,11 @@ p{
 }
 .lh-24{
     line-height: 24px;
+}
+
+.d-flex-c{
+    flex-direction: column;
+    @include d-flex-centered;
 }
 
 .cookies{
@@ -93,6 +101,8 @@ p{
     }
 }
 .hero{
+    max-height: 450px;
+    height: 100%;
     & .sidebar{
         width: 100%;
         max-width: 276px;
@@ -207,4 +217,39 @@ p{
     }
 }
 
+.scroll-down {
+    & .sd-row{
+        width: 1200px;
+        margin: auto;
+    }
+    & .underline{
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    & .underline:hover{
+        color: $navy-blue;
+    }
+}
+
+.footer{
+    background: linear-gradient(180deg,#191348,#135585);
+    & img{
+        max-width: 150px;
+        width: 100%;
+    }
+    & .footer-link{
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+    & .footer-link:hover{
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    & .row-2{
+        padding-bottom: 20px;
+        border-bottom: 1.5px solid white;
+    }
+}
     

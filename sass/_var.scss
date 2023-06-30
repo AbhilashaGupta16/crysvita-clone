@@ -1,0 +1,101 @@
+$light-blue:#72E5FE;
+$navy-blue:#135585;
+$dark-blue:#191348;
+$deep-black:#202020;
+@media(max-width:1220px){
+    .img-text{
+        width: 75% !important;
+    }
+    .hero .para-2 img{
+        width: 350px !important;
+    }
+    .hero .para-2{
+        width: 100% !important;
+    }
+}
+@media(max-width:993px){
+    .cookies{
+        flex-direction: column;
+        align-items:normal !important;
+        & p{
+            width: 100% !important;
+        margin: 10px 0 !important;
+        }
+    }
+    .info{
+        display: none !important;
+    }
+    .hero{
+        flex-direction: column;
+        & .navbar{
+            width: 100%;
+        }
+        & .navbar-img-mobile{
+            display: block !important;
+        }
+        & .navbar-img-laptop{
+            display: none;
+        }
+        & .container-fluid{
+            flex-direction: row !important;
+        }
+        & .sidebar{
+            max-width: 100% !important;
+            /* max-width: 276px; */
+            flex-direction: row !important;
+            height: auto !important;
+            justify-content: space-between;
+        }
+        & .para-4-box{
+            width: 650px !important;
+        }
+    }
+}
+@media(max-width:800px){
+    .hero .img{
+        background-image: url(../images/banner-mobile.png) !important;
+        height: 520px !important;
+        background-position: 20% 100% !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img-text {
+        width: 100% !important;
+    }
+    .hero .img-text {
+        height: auto !important;
+        padding-top: 20px;
+    }
+    .hero .para-1-text {
+        padding: 0 75px !important;
+        width: 100%;
+    }
+    .para-1 .col-2{
+        display: none;
+    }
+}
+
+@media(max-width:767px){
+    .para-2 .side-1,
+    .para-2 .side-2{
+        align-items: center !important;
+    }
+    .hero .para-4-box{
+        width: 500px !important;
+    }
+}
+@media(max-width:420px){
+    .hero .para-1 button{
+        width: 270px !important;
+        font-size: 12px !important;
+    }
+    .hero .para-2 img{
+        width: 250px !important;
+    }
+    .hero .para-4-box{
+        width: 400px !important;
+    }
+    .hero .para-4 img{
+        max-width: 315px !important;
+    }
+}

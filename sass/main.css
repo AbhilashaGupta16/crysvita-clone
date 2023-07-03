@@ -302,6 +302,7 @@ p {
 }
 .hero .accordion-item {
   border: none;
+  width: 230px !important;
 }
 .hero .accordion-button:not(.collapsed) {
   color: black;
